@@ -1,4 +1,4 @@
-const name = "Mark Cuckovich";
+const name = "Mitch Cuckovich";
 let age = 25;
 const birthday = "January 24";
 let detroitGC = true;
@@ -14,9 +14,13 @@ I am currently ${age} years old and my birthday is on ${birthday}.`);
 I am currently ${age} years old and my birthday is on ${birthday}.`);
 }
 
-lifeEvents.forEach(function(item) {
-    console.log(item)
-  });
+// lifeEvents.forEach(function(item) {
+//     console.log(item)
+//   });
+
+for(let i=0; i<lifeEvents.length;i++){
+    console.log(lifeEvents[i]);
+}
 
 let counter = 0;
 let randomNumber = Math.floor((Math.random() * 10) +1);
